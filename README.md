@@ -3,7 +3,8 @@ A mod aiming to fix various text inconsistencies, misleading descriptions and ty
 
 # Current version
 
-0.12
+Game version: Fractal 4.14
+Mod version: 0.12
 
 # Changes
 
