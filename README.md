@@ -1,12 +1,6 @@
 # nms-misctextfixes
 A mod aiming to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. Mod affecting only English language files. Idea by FriendlyFirePL.
 
-# Current version
-
-Game version: Fractal 4.14
-
-Mod version: 0.12
-
 # Changes
 
 > New save message for Multiplayer and Nexus mission scenarios
