@@ -4,7 +4,7 @@
 | LOC 1 | `TEXT_SAVE_MUTLIPLAYER` | - | - |
 | LOC 1 | `TEXT_SAVE_NEXUSMISSION` | working | - |
 | | | | |
-| LOC 4 | `TEXT_COMMERCIAL_BUILD` | - | early game content? |
+| LOC 4 | `TEXT_COMMERCIAL_BUILD` | - | building used in Artemis quest line? |
 | | | | |
 | LOC 6 | `TEXT_DESTROYED_FREIGHTER` | - | attempt to differentiate old derelicts from Desolation's derelict freighters |
 | | | | |
