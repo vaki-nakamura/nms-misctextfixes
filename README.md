@@ -1,5 +1,5 @@
 # nms-misctextfixes
-A mod aiming to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. Idea by FriendlyFirePL.
+A mod aiming to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. Mod affecting only English language files. Idea by FriendlyFirePL.
 
 # Current version
 
@@ -13,7 +13,7 @@ The existing messages can be misleading, since the only thing that is properly s
 
 > Minotaur AI module description
 
-Both the Hardframe Body and the standalone AI module mention minotaur beign capable of "mining operations", where no such mechanics are present in the game. This info was removed from descriptions.
+Both the Hardframe Body and the standalone AI module mention minotaur being capable of "mining activities", where no such mechanics are present in the game. This info was removed from descriptions.
 
 > New label for old derelict freighters
 
