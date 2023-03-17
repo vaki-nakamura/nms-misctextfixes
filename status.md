@@ -1,23 +1,23 @@
 
-| File | Change | Checked in-game Y/N | Comment |
+| File | Change | Checked in-game | Comment |
 | --- | --- | --- | --- |
-| LOC 1 | `TEXT_SAVE_MUTLIPLAYER` | N | - |
-| LOC 1 | `TEXT_SAVE_NEXUSMISSION` | Y | - |
-| LOC 1 | `TEXT_DEATH_AUTHOR` | N | death screen with quote by Kurt Vonnegut |
+| LOC 1 | `TEXT_SAVE_MUTLIPLAYER` | - | - |
+| LOC 1 | `TEXT_SAVE_NEXUSMISSION` | x | - |
+| LOC 1 | `TEXT_DEATH_AUTHOR` | - | death screen with quote by Kurt Vonnegut |
 | | | | |
-| LOC 3 | `TEXT_SURVEY_FLORAL` | N | - |
-| LOC 3 | `TEXT_SURVEY_MINERAL` | Y | - |
-| LOC 3 | `TEXT_SURVEY_CREATURES` | N | - |
+| LOC 3 | `TEXT_SURVEY_FLORAL` | - | - |
+| LOC 3 | `TEXT_SURVEY_MINERAL` | x | - |
+| LOC 3 | `TEXT_SURVEY_CREATURES` | - | - |
 | | | | |
-| LOC 4 | `TEXT_COMMERCIAL_BUILD` | N | building used in Artemis quest line? need to check |
+| LOC 4 | `TEXT_COMMERCIAL_BUILD` | - | building used in Artemis quest line? need to check |
 | | | | |
-| LOC 6 | `TEXT_DESTROYED_FREIGHTER` | N | new label for old derelicts (red icon, no landing pad) |
+| LOC 6 | `TEXT_DESTROYED_FREIGHTER` | - | new label for old derelicts (red icon, no landing pad) |
 | | | | |
-| LOC 7 | `TEXT_EXOMECH_AI_MODULE` | Y | - |
-| LOC 7 | `TEXT_EXOMECH_HARDFRAME` | Y | - |
-| LOC 7 | `TEXT_CARGOSCAN_SCRAMBLED` | Y | - |
-| LOC 7 | `TEXT_COMMERCIAL_FREQ` | Y | - |
-| LOC 7 | `TEXT_COMMERCIAL_QUEST` | Y | - |
-| LOC 7 | `TEXT_COMMERCIAL_SETL` | N | one of settlement policies event |
-| LOC 7 | `TEXT_WEAPON_SHARD` | Y | - |
+| LOC 7 | `TEXT_EXOMECH_AI_MODULE` | x | - |
+| LOC 7 | `TEXT_EXOMECH_HARDFRAME` | x | - |
+| LOC 7 | `TEXT_CARGOSCAN_SCRAMBLED` | x | - |
+| LOC 7 | `TEXT_COMMERCIAL_FREQ` | x | - |
+| LOC 7 | `TEXT_COMMERCIAL_QUEST` | x | - |
+| LOC 7 | `TEXT_COMMERCIAL_SETL` | - | one of settlement policies event |
+| LOC 7 | `TEXT_WEAPON_SHARD` | x | - |
 | | | | |
