@@ -19,6 +19,10 @@ Currently there are 2 types of derelict freighter space encounters present in th
 
 Labels used for local system survey missions (scanning flora, fauna, minerals) did not use line break characters, which made it possible for them to "stick" to one another when multiple missions took place on the same planet. We added icons and line breaks to improve readability of these labels.
 
+> Sentinel Weapon Shards for Boltcaster
+
+The wording in descriptions of Sentinel Weapon Shards made it sound like the bonuses from upgrades were applied to overall damage potential of the Multitool. As these modules target only the stats of the Boltcaster weapon, a change was made to reflect that. In addition the latter part of description was slightly altered to get a nicer wrap effect on the text. 
+
 > various typos fixed
 
 * multiple instances of typos in word "commercial" (buying frigates, pirate mission tooltips, settlement policy event)
