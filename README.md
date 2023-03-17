@@ -21,9 +21,9 @@ Labels used for local system survey missions (scanning flora, fauna, minerals) d
 
 > various typos fixed
 
-* multiple instances of typos in word "commercial" (buying frigates, pirate mission tooltips, settlementt policy event)
+* multiple instances of typos in word "commercial" (buying frigates, pirate mission tooltips, settlement policy event)
 * typo in Cargo Scan Deflector message
-* typo in one of the names showed in death screen messages (Kurt Vonnegut)
+* typo in one of the names used in death screen messages (Kurt Vonnegut)
 
 
 
