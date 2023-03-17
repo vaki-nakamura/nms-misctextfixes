@@ -13,11 +13,11 @@ Both the Hardframe Body and the standalone AI module mention minotaur being capa
 
 > New label for old derelict freighters
 
-Currently there are 2 types of derelict freighter space encounters present in the game. The old derelicts, broken in half, with no landing pads, denoted by the red icon, and the derelicts added with Desolation update with proc-gen interiors that can be explored. This can lead to some confusion, hence my idea to rename the former type to Destroyed Freighters.
+Currently there are 2 types of derelict freighter space encounters present in the game. The old derelicts, broken in half, with no landing pads, denoted by the red icon, and the derelicts added with Desolation update with proc-gen interiors that can be explored. Having two types of freighters with different mecahnics using the same name was leading to confusion, hence my idea to rename the former type to Destroyed Freighters.
 
 > Changes to survey missions' labels
 
-Labels used for local system survey missions (scanning flora, fauna, minerals) did not use line break characters, which made it possible for them to "stick" to one another when multiple missions took place on the same planet. We added icons and line breaks to improve readability of these labels.
+Labels used for local system survey missions (scanning flora, fauna, minerals) did not use line break characters, which made it possible for them to "stick" to one another when multiple missions took place on the same planet. We added line breaks to improve readability of these labels and icons to bring them more in line with other elements visible on the scan card.
 
 > Sentinel Weapon Shards for Boltcaster
 
