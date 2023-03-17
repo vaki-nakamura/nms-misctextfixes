@@ -85,6 +85,11 @@ NMS_MOD_DEFINITION_CONTAINER =
                             ["VCT"] = {{"Value",TEXT_SAVE_MULTIPLAYER},},                            
                         },
 
+                        {   -- new save messsage for Nexus missions
+                            ["SKW"] = {"Id","INTRCT_SAVE_NO_POS_NEXUS",},
+                            ["VCT"] = {{"Value",TEXT_SAVE_NEXUSMISSION},},                            
+                        },
+
                         {   -- fixed typo in author's name
                             ["SKW"] = {"Id","DEATH_AUTHOR_12",},
                             ["VCT"] = {{"Value",TEXT_DEATH_AUTHOR},},                            
