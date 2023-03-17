@@ -1,15 +1,16 @@
 
 -- mod description
-METADATA_MOD_NAME       = "FF_MiscTextFixes_414.pak"
+METADATA_MOD_NAME       = "FF_MiscTextFixes_414_013.pak"
 METADATA_MOD_AUTHOR     = "FriendlyFirePL, bk201"
 METADATA_LUA_AUTHOR     = "FriendlyFirePL"
 METADATA_NMS_VERSION    = "4.14"
-METADATA_MOD_DESC       = "0.12"
+METADATA_MOD_DESC       = "0.13"
 
 ----------------------------------------------------------------------------------------------------
 
 -- files to be changed
 PATH_LANGUAGE_LOC1 = "LANGUAGE\\NMS_LOC1_ENGLISH.MBIN"
+PATH_LANGUAGE_LOC3 = "LANGUAGE\\NMS_UPDATE3_ENGLISH.MBIN"
 PATH_LANGUAGE_LOC4 = "LANGUAGE\\NMS_LOC4_ENGLISH.MBIN"
 PATH_LANGUAGE_LOC6 = "LANGUAGE\\NMS_LOC6_ENGLISH.MBIN"
 PATH_LANGUAGE_LOC7 = "LANGUAGE\\NMS_LOC7_ENGLISH.MBIN"
@@ -21,6 +22,16 @@ PATH_LANGUAGE_LOC7 = "LANGUAGE\\NMS_LOC7_ENGLISH.MBIN"
 -- new save messsage for multiplayer and Nexus mission scenarios
 TEXT_SAVE_MULTIPLAYER = "Multiplayer &lt;IMG&gt;SLASH&lt;&gt; Mission progress and inventory saved. Player position not saved."
 TEXT_SAVE_NEXUSMISSION = "Nexus mission &lt;IMG&gt;SLASH&lt;&gt; Inventory saved. Mission progress and player position not saved."
+
+-- fixed typo in author's name
+TEXT_DEATH_AUTHOR = "- KURT VONNEGUT, A MAN WITHOUT A COUNTRY"
+
+----------------- changes to localization file 3
+
+-- added symbols to force new line for mission descriptions
+TEXT_SURVEY_FLORAL = "&lt;IMG&gt;DFLORA&lt;&gt; Floral Survey Location&#xA;"
+TEXT_SURVEY_MINERAL = "&lt;IMG&gt;DMINERAL&lt;&gt; Mineral Survey Location&#xA;"
+TEXT_SURVEY_CREATURES = "&lt;IMG&gt;DFAUNA&lt;&gt; Creature Survey Location&#xA;"
 
 ----------------- changes to localization file 4
 
@@ -43,12 +54,11 @@ TEXT_CARGOSCAN_SCRAMBLED = "Incoming Cargo Probe Scrambled!"
 
 -- fixed typo in commercial
 TEXT_COMMERCIAL_FREQ = "COMMERCIAL FREQUENCY"
-
--- fixed typo in commercial
 TEXT_COMMERCIAL_QUEST = "Intercept and destroy the &lt;STELLAR&gt;%FREIGHTER%&lt;&gt;&#xA;Locate the mission's &lt;TECHNOLOGY&gt;expedition path&lt;&gt;&#xA;Searching commercial traffic signals: %SIGNAL%"
-
--- fixed typo in commercial
 TEXT_COMMERCIAL_SETL = "commercial innovation"
+
+-- added Boltcaster to description of Sentinel Weapons Shards
+TEXT_WEAPON_SHARD = "An &lt;SPECIAL&gt;anomalous&lt;&gt; upgrade for the Multi-Tool's &lt;TECHNOLOGY&gt;Boltcaster&lt;&gt; weapon system. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;This eerie, glassy shard was extracted from &lt;SPECIAL&gt;Sentinel debris&lt;&gt;. Its exact effect upon the Multi-Tool will not be known until after installation is complete."
 
 ----------------------------------------------------------------------------------------------------
 
@@ -75,9 +85,31 @@ NMS_MOD_DEFINITION_CONTAINER =
                             ["VCT"] = {{"Value",TEXT_SAVE_MULTIPLAYER},},                            
                         },
 
-                        {   -- new save messsage for multiplayer
-                            ["SKW"] = {"Id","INTRCT_SAVE_NO_POS_NEXUS",},
-                            ["VCT"] = {{"Value",TEXT_SAVE_NEXUSMISSION},},                            
+                        {   -- fixed typo in author's name
+                            ["SKW"] = {"Id","DEATH_AUTHOR_12",},
+                            ["VCT"] = {{"Value",TEXT_DEATH_AUTHOR},},                            
+                        },
+                    }
+                },
+
+                {
+                    -- localization file 3 ----------------------------------------------------------------------------------------------------
+                    ["MBIN_FILE_SOURCE"] = PATH_LANGUAGE_LOC3,
+                    ["EXML_CHANGE_TABLE"] =
+                    {
+                        {   -- added symbols to mission description
+                            ["SKW"] = {"Id","UI_TREE_SCAN_TARGET_PLANET",},
+                            ["VCT"] = {{"Value",TEXT_SURVEY_FLORAL},},                            
+                        },
+
+                        {   -- added symbols to mission description
+                            ["SKW"] = {"Id","UI_MIN_SCAN_TARGET_PLANET",},
+                            ["VCT"] = {{"Value",TEXT_SURVEY_MINERAL},},                            
+                        },
+
+                        {   -- added symbols to mission description
+                            ["SKW"] = {"Id","UI_CRE_SCAN_TARGET_PLANET",},
+                            ["VCT"] = {{"Value",TEXT_SURVEY_CREATURES},},                            
                         },
                     }
                 },
@@ -87,6 +119,11 @@ NMS_MOD_DEFINITION_CONTAINER =
                     ["MBIN_FILE_SOURCE"] = PATH_LANGUAGE_LOC4,
                     ["EXML_CHANGE_TABLE"] =
                     {
+                        {   -- fixed typo in commercial
+                            ["SKW"] = {"Id","UI_BASE_SHOP_SUB",},
+                            ["VCT"] = {{"Value",TEXT_COMMERCIAL_BUILD},},                            
+                        },
+
                         {   -- fixed typo in commercial
                             ["SKW"] = {"Id","UI_BASE_SHOP_SUB",},
                             ["VCT"] = {{"Value",TEXT_COMMERCIAL_BUILD},},                            
@@ -139,6 +176,11 @@ NMS_MOD_DEFINITION_CONTAINER =
                         {   -- fixed typo in commercial
                             ["SKW"] = {"Id","UI_JUDGEMENT_POLICY5_NAME4",},
                             ["VCT"] = {{"Value",TEXT_COMMERCIAL_SETL},},                            
+                        },
+
+                        {   -- added info to weapon shard description
+                            ["SKW"] = {"Id","UP_SENTGUN_DESC",},
+                            ["VCT"] = {{"Value",TEXT_WEAPON_SHARD},},                            
                         },
                     }
                 }
