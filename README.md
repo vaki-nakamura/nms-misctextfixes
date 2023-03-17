@@ -13,7 +13,7 @@ Both the Hardframe Body and the standalone AI module mention minotaur being capa
 
 > New label for old derelict freighters
 
-Currently there are 2 types of derelict freighter space encounters present in the game. The old derelicts, broken in half, with no landing pads, denoted by the red icon, and the derelicts added with Desolation update with proc-gen interiors that can be explored. Having two types of freighters with different mecahnics using the same name was leading to confusion, hence my idea to rename the former type to Destroyed Freighters.
+Currently there are 2 types of derelict freighter space encounters present in the game. The old derelicts, broken in half, with no landing pads, denoted by the red icon, and the derelicts added with Desolation update with proc-gen interiors that can be explored. Having two types of freighters with different mechanics using the same name was confusing to some players, hence my idea to rename the former type to Destroyed Freighters.
 
 > Changes to survey missions' labels
 
