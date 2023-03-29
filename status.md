@@ -1,23 +1,31 @@
 
 | File | Change | Checked in-game | Comment |
 | --- | --- | --- | --- |
-| LOC 1 | `TEXT_SAVE_MUTLIPLAYER` | - | - |
-| LOC 1 | `TEXT_SAVE_NEXUSMISSION` | x | - |
-| LOC 1 | `TEXT_DEATH_AUTHOR` | - | death screen with quote by Kurt Vonnegut |
-| | | | |
-| LOC 3 | `TEXT_SURVEY_FLORAL` | - | - |
-| LOC 3 | `TEXT_SURVEY_MINERAL` | x | - |
-| LOC 3 | `TEXT_SURVEY_CREATURES` | - | - |
-| | | | |
-| LOC 4 | `TEXT_COMMERCIAL_BUILD` | - | building used in Artemis quest line? need to check |
-| | | | |
-| LOC 6 | `TEXT_DESTROYED_FREIGHTER` | - | new label for old derelicts (red icon, no landing pad) |
-| | | | |
-| LOC 7 | `TEXT_EXOMECH_AI_MODULE` | x | - |
-| LOC 7 | `TEXT_EXOMECH_HARDFRAME` | x | - |
-| LOC 7 | `TEXT_CARGOSCAN_SCRAMBLED` | x | - |
-| LOC 7 | `TEXT_COMMERCIAL_FREQ` | x | - |
-| LOC 7 | `TEXT_COMMERCIAL_QUEST` | x | - |
-| LOC 7 | `TEXT_COMMERCIAL_SETL` | - | one of settlement policies event |
-| LOC 7 | `TEXT_WEAPON_SHARD` | x | - |
-| | | | |
+| LOC 1 | `TEXT_SAVE_MUTLIPLAYER` | | |
+| LOC 1 | `TEXT_SAVE_NEXUSMISSION` | x | |
+| LOC 1 | `TEXT_DEATH_AUTHOR` | | death screen with quote by Kurt Vonnegut |
+| --- | --- | --- | --- |
+| LOC 3 | `TEXT_SURVEY_FLORAL` | | |
+| LOC 3 | `TEXT_SURVEY_MINERAL` | x | |
+| LOC 3 | `TEXT_SURVEY_CREATURES` | | |
+| --- | --- | --- | --- |
+| LOC 4 | `TEXT_COMMERCIAL_BUILD` | | building used in Artemis quest line? need to check |
+| LOC 4 | `TEXT_SODIUM_CRYSTALS` | x | |
+| --- | --- | --- | --- |
+| LOC 6 | `TEXT_DESTROYED_FREIGHTER` | x | |
+| LOC 6 | `TEXT_LIVING_WATER` | x | |
+| LOC 6 | `TEXT_SOLARRAY_1` | | tooltip for Solar Ray tech during Starbirth quest |
+| LOC 6 | `TEXT_SOLARRAY_2` | | tooltip for Solar Ray tech during Starbirth quest |
+| LOC 6 | `TEXT_SOLARRAY_3` | | tooltip for Solar Ray tech during Starbirth quest |
+| --- | --- | --- | --- |
+| LOC 7 | `TEXT_EXOMECH_AI_MODULE` | x | |
+| LOC 7 | `TEXT_EXOMECH_HARDFRAME` | x | |
+| LOC 7 | `TEXT_CARGOSCAN_SCRAMBLED` | x | |
+| LOC 7 | `TEXT_COMMERCIAL_FREQ` | x | |
+| LOC 7 | `TEXT_COMMERCIAL_QUEST` | x | |
+| LOC 7 | `TEXT_COMMERCIAL_SETL` | | one of settlement policies event |
+| LOC 7 | `TEXT_WEAPON_SHARD` | x | |
+| --- | --- | --- | --- |
+| OTHER | `UI_PLAYER_TITLE_ABANDLORE3` | x | records of Odvinsko player title |
+| OTHER | `UI_PLAYER_TITLE_ABANDLORE4` | x | records of The Voice player title |
+| --- | --- | --- | --- |
