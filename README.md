@@ -1,35 +1,19 @@
-# nms-misctextfixes
+# NMS Misc Text Fixes
+
 A mod aiming to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. Mod affecting only English language files. Idea by FriendlyFirePL.
 
-# Changes
+# Current version
 
-> New save message for Multiplayer and Nexus mission scenarios
+0.21
 
-The existing messages can be misleading, since the only thing that is properly saved is player's inventory state. These new messages should reflect that.
+# Changelog
 
-> Minotaur AI module description
+See [the changes file](changes.md) for an overview of the changes included in this mod and the reasoning behind them.
 
-Both the Hardframe Body and the standalone AI module mention minotaur being capable of "mining activities", where no such mechanics are present in the game. This info was removed from descriptions.
+See [the changelog file](changelog.md) for the history of different mod versions.
 
-> New label for old derelict freighters
+# Credits
 
-Currently there are 2 types of derelict freighter space encounters present in the game. The old derelicts, broken in half, with no landing pads, denoted by the red icon, and the derelicts added with Desolation update with proc-gen interiors that can be explored. Having two types of freighters with different mechanics using the same name was confusing to some players, hence my idea to rename the former type to Destroyed Freighters.
-
-> Changes to survey missions' labels
-
-Labels used for local system survey missions (scanning flora, fauna, minerals) did not use line break characters, which made it possible for them to "stick" to one another when multiple missions took place on the same planet. We added line breaks to improve readability of these labels and icons to bring them more in line with other elements visible on the scan card.
-
-> Sentinel Weapon Shards for Boltcaster
-
-The wording in descriptions of Sentinel Weapon Shards made it sound like the bonuses from upgrades were applied to overall damage potential of the Multitool. As these modules target only the stats of the Boltcaster weapon, a change was made to reflect that. In addition the latter part of description was slightly altered to get a nicer wrap effect on the text. 
-
-> various typos fixed
-
-* multiple instances of typos in word "commercial" (buying frigates, pirate mission tooltips, settlement policy event)
-* typo in Cargo Scan Deflector message
-* typo in one of the names used in death screen messages (Kurt Vonnegut)
-
-
-
-
-
+* bk201 - pointing out typos and invalid descriptions, providing feedback on changes
+* Devilin Pixy - pointing out typos
+* Gumsk - idea for LUA script used since version 0.20
