@@ -45,4 +45,4 @@
 | --- | --- | --- | --- |
 | OTHER | `UI_PLAYER_TITLE_ABANDLORE3` | x | records of Odvinsko player title |
 | OTHER | `UI_PLAYER_TITLE_ABANDLORE4` | x | records of The Voice player title |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | 
