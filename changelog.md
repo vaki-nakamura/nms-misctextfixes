@@ -1,3 +1,18 @@
+# version 4.22 beta
+
+* LUA script rework; credits to Lyravega
+* changed stat name of Solar Panel Power on life support upgrades
+* fixed typo in British spelling of the word "practise" (verb)
+* changed verbiage for comment displayed on Difficulty settings button during Nexus / Multiplayer activity
+* changed more labels for missions targetting specific planets to include icons and line breaks
+* adding line breaks to new save messages
+
+# version 4.22 (release 1)
+
+* changed version numeration for the initial release to keep the mod in line with game updates' versioning
+* fixed typo in British spelling of the word Traveller
+* fixed wrong crafting tooltip for Warp Hypercore
+
 # version 0.21
 
 * renamed sodium crystals
