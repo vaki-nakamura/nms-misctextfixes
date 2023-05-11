@@ -1,11 +1,19 @@
 # version 4.22 beta
 
-* LUA script rework; credits to Lyravega
+Two important notices first:
+* LUA script has been reworked and simplified; credits to Lyravega
+* LUA scripts have been separated for individual localization files for easier managing of conflicts with other mods
+* changes to various mission labels have been removed from this mod and incorporated into Labels Improved mod
+
+Now for the actual text fixes:
 * changed stat name of Solar Panel Power on life support upgrades
 * fixed typo in British spelling of the word "practise" (verb)
 * changed verbiage for comment displayed on Difficulty settings button during Nexus / Multiplayer activity
-* changed more labels for missions targetting specific planets to include icons and line breaks
-* adding line breaks to new save messages
+* added more info and line breaks to new save messages
+* fixed description for Osmotic Generator (removed info about recharge functionality)
+* changed verbiage for Multi Tool Expansion Slot descriptions (removed mentioning of space stations)
+* fixed description for Cargo Bulkheads (removed info about frigate expeditions, added info about rescued capital freighters and compatibility with Tech / Cargo)
+* fixed description for Anti-Gravity Well (added stylized info about recharge functionality)
 
 # version 4.22 (release 1)
 
