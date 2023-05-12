@@ -1,11 +1,11 @@
-# version 4.22 beta
+# version 4.23 (release 2)
 
-Two important notices first:
+General changes:
 * LUA script has been reworked and simplified; credits to Lyravega
-* LUA scripts have been separated for individual localization files for easier managing of conflicts with other mods
-* changes to various mission labels have been removed from this mod; those will be incorporated into Labels Improved mod
+* LUA scripts and generated PAK files have been separated for individual localization files for easier managing of conflicts with other mods
+* since version 4.23 changes affecting various mission labels have been removed from this mod; those will be incorporated into Labels Improved mod
 
-Now for the actual text fixes:
+Text fixes:
 * changed stat name of Solar Panel Power on life support upgrades
 * fixed typo in British spelling of the word "practise" (verb)
 * changed verbiage for comment displayed on Difficulty settings button during Nexus / Multiplayer activity
@@ -14,10 +14,10 @@ Now for the actual text fixes:
 * changed verbiage for Multi Tool Expansion Slot descriptions (removed mentioning of space stations)
 * fixed description for Cargo Bulkheads (removed info about frigate expeditions, added info about rescued capital freighters and compatibility with Tech / Cargo)
 * fixed description for Anti-Gravity Well (added stylized info about recharge functionality)
-* fixed typo in Warp Cell description (guarenteed)
-* fixed typos in names of refining recipies related to organic nitrogen (Nitrogern)
+* fixed typo in Warp Cell description
+* fixed typos in names of refining recipies related to "harnessing nitrogen"
 * fixed double dot at the end of Cactus Flesh description
-* altered the description of Exosuit Expansion Units (added color to upgrade terminals, removed color from space stations, added info about drop pods)
+* altered the description of Exosuit Expansion Units (changed colors, added info about drop pods)
 
 # version 4.22 (release 1)
 
